@@ -88,7 +88,7 @@ The dataset contains adult content. Adult content is defined as pornographic med
 
 ## Computational Methods
 
-In our computational methods, we used many methods in the Python packages pandas and matplotlib to graph quantitative bar charts. 
+In our computational methods, we used many methods in the Python packages pandas and matplotlib to graph quantitative bar charts. Most of the data we looked at to analyze were distributions of categorical data including release year, movie title, popularity, user ratings, and number of votes. We mainly used bar graphs to visually see changes over time to detect trends.
 
 - `.sample()` was used to get an overview of the data and examine random rows of the data frame. 
 
@@ -108,30 +108,41 @@ In our computational methods, we used many methods in the Python packages pandas
 
 ## Data Analysis
 
-![Bar graph displaying the original languages and how many movies are attributed to each](pics/language_counts.png)
+![](../pics/language_counts.png)
 
 Some main findings we had were that the majority of the films included in the data set are originally spoken in English. The count reveals that most of the entries of interest are English films, and by extension, most users are English speaking, which is what we expected before officially crawling our data.
 
-![Horizontal bar graph displaying the top 10 movies by the vote average](pics/top_10_vote_avg.png)
-![Horizontal bar graph displaying the top 10 movies by popularity](pics/top_10_pop_by_movie.png)
+![](../pics/earliest_10_movies.png)
+
+!](../pics/release_years.png)
+
+The earliest year that a remake was released was in 1918, the movie, _The Sqauw Man_.
+
+Comparing the amount of remakes to the earliest period of time in the data set to the last 10 years show that remakes are a more recent occurrence. This is happening as there is more media that can be referenced in order to make a remake as opposed to the beginning of the film and entertainment industry when there isn’t much past material to look back on that can be remade. 
+
+
+
+
+![](../pics/top_10_vote_avg.png)
+![](../pics/top_10_pop_by_movie.png)
 
 The most popular or well received movies were a mixture of genres and intended audience. The most popular are children’s movies, adult dramas, and horror. It’s representative of real life patterns of what is considered safe and reliable by investors , especially when it comes to children’s movies as the parents most likely have a positive association with the movie and want to connect with their child through watching the remake with them.
 
 
-![Horizontal bar chart showing the top 10 movies by vote counts](pics/top_10_vote_counts.png)
+![](../pics/top_10_vote_counts.png)
 
-![Info graphic showing the dates when the top 10 movies by vote count were released](pics/movie_release_dates.png)
+![](../pics/movie_release_dates.png)
 
 A specific example that we want to bring up is the movie _A Star Is Born_ showing up in the chart “Top 10 Vote Counts Movies.” The movie has had multiple remakes, but the one that shows up here is the 2018 that pop singer Lady Gaga starred in with her co-star Bradley Cooper. Past iterations of _A Star Is Born_ include starring actresses Judy Garland and Barbra Streisand in their respective versions. Despite their star power, it doesn’t appear that these past versions showed up (other data visualizations will show more than one version of the movie if prompted as seen by the _Little Mermaid_ showing up twice in “Top 10 Popularity by Movie”).
 
 
-![Horizontal bar chart displaying the top 10 movies by popularity](pics/top_10_pop_by_movie.png)
-![code and output showing the release dates for the movies featured in the previous graphic](pics/top_10_pop_code.png)
+![](../pics/top_10_pop_by_movie.png)
+![](../pics/top_10_pop_code.png)
 
 This is most likely the case due to TMDB’s smaller database, but also signifies the kind of modern cultural relevance Lady Gaga has in entertainment and the masses of people who consume her media. More Internet literate people, mostly made up of young adults, are going to vote on _A Star Is Born_ than older fans of Judy Garland and Barbra Streisand who aren’t on the Internet as much. Moreover, it shows the phenomenon of fan contributions related to this film, and fan’s desires to propel Lady Gaga to even more recognition than what she already has. One of the singles off of the _A Star Is Born_ soundtrack, _Shallow_, was widely circulated in a Twitter disinformation campaign called #SHALLOWBUCKS. Twitter user @fkanico, created a poster detailing that if someone streams _Shallow_, they can redeem a free Starbucks drink.[6]
 
 
-![](pics/starbucks.png)
+![](../pics/starbucks.png)
 
 Multiple fans retweeted the image to get unknowing listeners to stream the song in order to boost the popularity of the single and to keep it on the music charts. It’s a reflection of intense fan culture in the 21st century.
 
